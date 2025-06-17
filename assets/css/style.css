@@ -1,6 +1,10 @@
-.uppercase {
-    text-transform: uppercase;
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    font-family: 'Lexend Deca', sans-serif;
 }
+
+
 
 h1 {
     text-align: center;
@@ -10,12 +14,16 @@ h1 {
 .nav-link {
     color: white;
 }
-
-
-
+/* Présentation */
+.presentation {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* Pourquoi nos produits ? */
 figure {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 
     img {
         width: 100%;
@@ -26,19 +34,23 @@ figure {
 footer {
     color: white;
 }
-footer li {
+footer ul li {
     list-style-type: none;
 }
 
-footer div {
-    width: 400px;
-}
-
-footer h2 {
-    border-left: 5px solid orangered;
-}
-.quicklink li a {
+footer ul li a {
     text-decoration: none;
     color: white;
 }
 
+
+footer h3 {
+    border-left: 5px solid rgb(203, 206, 29);
+}
+
+.quicklink
+.quicklink li a {
+    text-decoration: none;
+    color: white;
+}
+/* Fin */
