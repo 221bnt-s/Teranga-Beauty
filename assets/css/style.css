@@ -1,3 +1,18 @@
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Navigation */
+.nav-link {
+    color: white;
+}
+
+
+
 figure {
     width: 200px;
     height: 200px;
@@ -7,9 +22,23 @@ figure {
     }
 }
 
-.avantages {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* Footer */
+footer {
+    color: white;
 }
+footer li {
+    list-style-type: none;
+}
+
+footer div {
+    width: 400px;
+}
+
+footer h2 {
+    border-left: 5px solid orangered;
+}
+.quicklink li a {
+    text-decoration: none;
+    color: white;
+}
+

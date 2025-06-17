@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 class="uppercase">Teranga Beauty</h1>
-<ul class="nav justify-content-center bg-dark bg-gradient">
+<ul class="nav justify-content-center bg-dark bg-gradient sticky-top">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Skincare</a>
   </li>
@@ -28,12 +28,24 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="./assets/img/skincare.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="uppercase">Skincare</h5>
+        <p>2 gammes : Royal & Soft</p>
+      </div>
     </div>
     <div class="carousel-item">
       <img src="./assets/img/hair.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="uppercase">Cheveux</h5>
+        <p>Prenez soin de vos cheveux grâce à nos produits</p>
+      </div>
     </div>
     <div class="carousel-item">
       <img src="./assets/img/makeup.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="uppercase">Maquillage</h5>
+        <p>Sublimez-vous avec Teranga Beauty</p>
+      </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -47,31 +59,57 @@
 </div>
 
 <div class="container">
-
   <div class="presentation">
     <p>La beauté brute : nous proposons des produits naturels et efficaces pour le bien-être de la peau et des cheveux sans perturber leur équilibre naturel.</p>
   </div>
 
-  <div class="bestseller">
+  <div class="container-fluid">
+    <div class="best-seller">
+      <h2>Nos best-sellers</h2>
+      <hr>
+      <h5>Gamme "Royal"</h5>
+        <img src="./assets/img/serum1.jpg" class="card-img-top w-50" alt="royal-skin">
 
-  </div>
+          <div class="card-body">
+            <h5 class="card-title">Royal Skin</h5>
+            <p class="card-text">Sérum à base de carotte, clou de girofle</p>
+            <a href="#" class="btn btn-dark">Voir le produit</a>
+          </div>
+      </div>
 
-  <div class="avantages">
-    <h2 class="uppercase">Pourquoi nos produits ?</h2>
-    <div class="qualite">
-         <figure>
-      <img src="./assets/img/serum.jpg" alt="serum">
-      <figcaption>Produit de très bonne qualité</figcaption>
-    </figure>
+      <div class="card">
+        <img src="./assets/img/pommade.jpg" class="card-img-top w-50" alt="royal-hair">
+
+        <div class="card-body">
+            <h5 class="card-title">Royal Hair</h5>
+            <p class="card-text">Pommade à base de beurre de karité, de romarin, de clou de girofle</p>
+            <a href="#" class="btn btn-dark">Voir le produit</a>
+          </div>
+        </div>
     </div>
-    <div class="livraison">
-          <figure>
-      <img src="./assets/img/livraison.jpg" alt="camion de livraison">
-      <figcaption>Livraison rapide</figcaption>
-    </figure>
-    </div>
 
+    <div class="card">
+  <img src="./assets/img/huile.jpg" class="card-img-top w-50" alt="huile">
+
+  <div class="card-body">
+    <h5 class="card-title">Oil</h5>
+    <p class="card-text">Huile à base d'aloe vera pour stimuler la pousse de la barbe</p>
+    <a href="#" class="btn btn-dark">Voir le produit</a>
   </div>
+</div>
+
+    <div class="pourquoi-nous">
+      <h3>Pourquoi choisir nos produits ?</h3>
+      <figure>
+        <img src="./assets/img/serum.jpg" alt="sérum">
+        <figcaption>Très bonne qualité</figcaption>
+      </figure>
+      <figure>
+        <img src="./assets/img/livraison.jpg" alt="camion de livraison">
+        <figcaption>Livraison rapide</figcaption>
+      </figure>
+    </div>
+  </div>  
 </div>
 
 <footer class="bg-dark bg-gradient">
